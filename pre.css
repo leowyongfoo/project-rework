@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: none;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 4.5em;
+    width: 100%;
+}
+.logo1 {
+    color: black;
+    font-size: 2rem;
+}
+.list-item > .item  {
+    list-style: none;
+} 
+.item > li {
+    border: solid 0.10rem black;
+    padding-top: 0.5rem;
+}
+a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+@media(min-width: 800px){
+    .phone{
+        display: none;
+    }
+    .flex-container, li{
+        display: block;
+    }
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+    nav, .flex-container{
+        display: flex;
+        height: 3.5em;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1em;
+        background-color: red;
+        
+    
+    } 
+    .flex-container li{
+        padding: 0px 2em;
+    
+    }
+    .flex-container li :hover{
+        cursor: pointer;
+        color: black;
+        font-size: 2rem;
+    }
+    .search-bar{
+        margin-left: 1em;
+    }
+    a{
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
+    nav .logo{
+        margin-right: 5em;
+    }
+    .logo :hover{
+        color: cornsilk;
+        background-color: gray;
+        border: solid black 0.15em;
+        border-radius: 0.5rem;
+        padding: 0 0.5em;
+    }
+    .logo a {
+        text-decoration: none;
+        color: black;
+        font-size: 2em;
+    }
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-group1{
+    list-style: none;
+}
+.form-group1 > li {
+    padding: 0.15rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+@media (min-width:500px){
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-group1{
+        list-style: none;
+    }
+    .form-group1 > li {
+        padding: 0.15rem;
+    }
+    
+    .btn{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+}
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>preorder</title>
+    <link rel="stylesheet" href="pre.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="pre.js" async></script>
+</head>
+<body>
+        <div class="phone">
+                <div class="logo1">SUC comp market</div>
+                <div class="list-item">
+                    <ul class="item">
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="preorder.html">preorder</a></li>
+                    </ul>
+          
+                </div>
+            </div>
+              <nav>
+                <div class="logo"><a href="index.html">SUC comp market</a></div>
+                <ul class="flex-container">
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="preorder.html">preorder</a> </li>
+                  <li><a>about us</a></li>
+                  <li><a>faq</a></li>
+                  <div class="search-bar"><form><input type="search" placeholder="search here">
+                  <i class="fa fa-search"></i></form></div>
+                </ul>
+                
+                </nav>
+            
+            <section>
+                <form name="preorder"  onsubmit="return formValidation()">
+                    <div class="panel-1">
+                         <div class="big-heading1"><h3>Preorder:</h3></div>
+                                <div class="form-1">
+                                <ul class="form-group1">
+                                    <li><label for="uname">Name</label></li>
+                                    <li><input type="text" name="uname" id="uname" size="40" required></li>
+                                    <li><label for="email">E-mail</label></li>
+                                    <li><input type="email" name="email" id="email" size="30" required></li>
+                                    <li><label for="phno" >Phone number:</label></li>
+                                    <li><input type="text" name="phno" id="phno" required></li>
+                                    <li><label for="pro">Product</label></li>
+                                    <li>
+                                        <select name="pro" id="pro">
+                                            <option value="Default" selected="">Select your product</option>
+                                            <option value="zb">ASUS Zenbook 15</option>
+                                            <option value="rg">ROG STRIX</option>
+                                            <option value="vb">ASUS Vivobook 2020</option>
+                                        </select>
+                                       
+                                    </li>
+                                    <li><label for="quan">Quantity</label></li>
+                                    <li><input type="number" name="quan" id="quan"></li>
+                                    <li><label for="add">Address</label></li>
+                                    <li><input type="text" name="add" id="add" required></li>
+                                    <li><label for="pcod">Postcode</label></li>
+                                    <li><input type="text" name="pcod" id="pcod" required></li>
+                                    <li><label for="st">State</label></li>
+                                    <li><input type="text" name="st" id="st" required></li>
+                                    <li><label for="rm">Remark</label></li>
+                                    <li><textarea name="rm" id="rm" cols="30" rows="10"></textarea></li>
+                                </ul>
+                        </div>
+                        <div class="btn">
+                            <input  type="submit" name="submit" value="Submit">
+                        </div>
+                </div>
+                </form>
+        </section>
+</body>
+</html>

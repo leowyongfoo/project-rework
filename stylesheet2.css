@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ ul{
+    padding: 0;
+    list-style: none;
+}
+nav, .flex-container{
+    display: flex;
+    height: 3.5em;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em;
+    background-color: red;
+
+} 
+.flex-container li{
+    padding: 0px 2em;
+
+}
+.flex-container li :hover{
+    cursor: pointer;
+    color: white; 
+}
+ 
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+nav h1{
+    margin-right: auto;
+}
+h1 :hover{
+    color: cornsilk;
+    background-color: gray;
+    border: solid black 0.15em;
+    border-radius: 0.5rem;
+    padding: 0 0.5em;
+}
+
+
